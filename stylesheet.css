@@ -1,0 +1,77 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.banner { 
+    clear: both;
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.logo {
+    display: block;
+    width: 110px;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+
+.logo img {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 50%
+}
+
+.left {
+    margin-left: 100px;
+    font-family: Arial;
+    color: dimgray;
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+    overflow: auto;
+}
+
+.middle {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    overflow: auto;
+}
+
+a:visited {
+    color: blue;
+}
+
+.right {
+    display: block;
+    font-family: Arial;
+    font-size: 0.75em;
+    margin-right: 0px;
+    position: fixed;
+    top: 500px;
+    right: 0;
+    width: 275px;
+    height: 110px;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.right img {
+    padding: 2px;
+    margin-bottom: 5px;
+    width: 23%;
+    border: 1px solid black;
+    border-radius: 50%;
+    float: left;
+}
+
+button {
+    float: right;
+    margin-top: -50px;
+    margin-right: 5px;
+    background-color: cornflowerblue;
+    color: white;
+}
